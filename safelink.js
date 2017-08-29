@@ -60,11 +60,11 @@ KODE IKLAN DISINI
 <b>Your link show here</b> <i aria-hidden="true" class="fa fa-hand-o-down"></i></h3>
 </div>
 <div class="panel-body">
-<script src="https://cdn.rawgit.com/dedi96/safelink/813ce72f/safelinkga.js" type="text/javascript"></script>
+<script src="https://cdn.rawgit.com/rinoschatzi/safelink1/440c9c5a/safelink.js" type="text/javascript"></script>
 <script type="text/javascript">
 var currentURL=location.href;
 var str = currentURL;
-var res = str.replace("https://safelinkcc.blogspot.com/p/blog-page.html?url=", "");
+var res = str.replace("https://safelinkcc.blogspot.com/p/blog-page.html", "");
 document.write('<button type="button" id="download" class="Visit_Link btn btn-success" onclick="changeLink();" style="display: none;"><strong>Visit Link</strong> <i class="fa fa-external-link" aria-hidden="true"></i></button>')
 </script>
   </div>
@@ -104,7 +104,7 @@ var a_to_ve="";var a_to_vf=new Array();var a_to_vg=0;a_to_ve=document.getElement
 {a_to_vh=true;}
 j++;}
 if(a_to_vh==false)
-{var encryptedUrl=Base64.encode(a_to_vi);a_to_ve[i].href="http://www.safelink.ga/p/generate.html?url="+ encryptedUrl;a_to_ve[i].rel="nofollow";a_to_vb++;a_to_vc+=i+":::"+ a_to_ve[i].href+"\n";}}
+{var encryptedUrl=Base64.encode(a_to_vi);a_to_ve[i].href="https://safelinkcc.blogspot.com/p/blog-page.html"+ encryptedUrl;a_to_ve[i].rel="nofollow";a_to_vb++;a_to_vc+=i+":::"+ a_to_ve[i].href+"\n";}}
 var a_to_vj=document.getElementById("anonyminized");var a_to_vk=document.getElementById("found_links");if(a_to_vj)
 {a_to_vj.innerHTML+=a_to_vb;}
 if(a_to_vk)
